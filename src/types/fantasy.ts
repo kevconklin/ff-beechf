@@ -1,0 +1,36 @@
+export interface FantasyTeam {
+  acquisition_budget_spent: number;
+  acquisitions: number;
+  division_id: number;
+  division_name: string;
+  draft_projected_rank: number;
+  drops: number;
+  final_standing: number;
+  logo_url: string | null;
+  losses: number;
+  mov: string;
+  outcomes: string;
+  owners: string;
+  playoff_pct: number;
+  points_against: number;
+  points_for: number;
+  roster: string;
+  schedule: string;
+  scores: string;
+  standing: number;
+  stats: string;
+  streak_length: number;
+  streak_type: string;
+  team_abbrev: string;
+  team_id: number;
+  team_name: string;
+  ties: number;
+  trades: number;
+  waiver_rank: number;
+  wins: number;
+  season: number;
+  rank: number;
+  champion: boolean;
+  runner_up: boolean;
+  displayName: string;
+}

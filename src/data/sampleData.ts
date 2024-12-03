@@ -1,0 +1,41 @@
+import { FantasyTeam } from '../types/fantasy';
+
+export const sampleData: FantasyTeam[] = [
+  {
+    acquisition_budget_spent: 0,
+    acquisitions: 23,
+    division_id: 1,
+    division_name: 'Division 2',
+    draft_projected_rank: 0,
+    drops: 23,
+    final_standing: 1,
+    logo_url: null,
+    losses: 4,
+    mov: '[24.0, -7.0, -37.0, -80.0, 54.0, 31.0, 38.0, 49.0, 54.0, 68.0, 3.0, -36.0, 76.0, 0.0, 2.0, 55.0]',
+    outcomes: "['W', 'L', 'L', 'L', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'L', 'W', 'U', 'W', 'W']",
+    owners: "[{'displayName': 'jmuggy20', 'firstName': 'Justin', 'id': '{66554CD2-EC21-410C-9284-FC9D5614B933}', 'lastName': 'Overley'}]",
+    playoff_pct: 0.0,
+    points_against: 1589.0,
+    points_for: 1826.0,
+    roster: '[Player(Tony Romo), Player(Chris Johnson), Player(Reggie Bush)]',
+    schedule: '[Team(Team Tacky Dick), Team(Team Double Dragon)]',
+    scores: '[147.0, 141.0, 129.0, 92.0, 124.0, 158.0, 128.0, 161.0, 132.0, 146.0, 159.0, 115.0, 194.0, 0.0, 136.0, 203.0]',
+    standing: 2,
+    stats: '{}',
+    streak_length: 1,
+    streak_type: 'WIN',
+    team_abbrev: 'WFLZ',
+    team_id: 2,
+    team_name: 'Twat Waffles',
+    ties: 0,
+    trades: 1,
+    waiver_rank: 12,
+    wins: 9,
+    season: 2009,
+    rank: 1,
+    champion: true,
+    runner_up: false,
+    displayName: 'jmuggy20'
+  },
+  // Add the rest of your sample data here
+];
